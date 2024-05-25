@@ -64,6 +64,9 @@
               "extractLicenses": false,
               "sourceMap": true,
               "namedChunks": true
+            },
+            "cloudflare": {
+              "outputPath": "dist/cloudflare"
             }
           },
           "defaultConfiguration": "production"
