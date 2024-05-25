@@ -4,11 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --output-path=dist/cloudflare",
-    "build-github": "ng build --base-href /developer-portfolio/ --output-path=dist/cloudflare",
-    "watch": "ng build --watch --configuration development --output-path=dist/cloudflare",
-    "test": "ng test",
-    "prebuild": "mkdir -p dist/cloudflare"
+    "build": "ng build",
+    "build-github": "ng build --base-href /developer-portfolio/",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
