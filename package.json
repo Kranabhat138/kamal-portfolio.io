@@ -6,7 +6,6 @@
     "start": "ng serve",
     "build": "ng build",
     "build-github": "ng build --base-href /developer-portfolio/",
-    "build-cloudflare": "ng build --configuration cloudflare",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
